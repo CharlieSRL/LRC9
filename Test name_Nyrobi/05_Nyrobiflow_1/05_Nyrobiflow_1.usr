@@ -1,0 +1,72 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=05_Nyrobiflow_1.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2022
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2022.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2022.0.0.0
+DisableRegenerate=0
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="00_NyrobiHomePage__*delimiter*__01_LoginPage__*delimiter*__02_Login__*delimiter*__03_Recommendations__*delimiter*__04_ContentRepository__*delimiter*__05_FilterByClass__*delimiter*__06_Filter__*delimiter*__07_SelectItem__*delimiter*__08_QuickLook__*delimiter*__09_CloseItem__*delimiter*__10_Search__*delimiter*__99_Logout"
+[StateManagement]
+LastReplayStatus=2
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+00_NyrobiHomePage=
+01_LoginPage=
+02_Login=
+03_Recommendations=
+04_ContentRepository=
+05_FilterByClass=
+06_Filter=
+07_SelectItem=
+08_QuickLook=
+09_CloseItem=
+10_Search=
+99_Logout=
